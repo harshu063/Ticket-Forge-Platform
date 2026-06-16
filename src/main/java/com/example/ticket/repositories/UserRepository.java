@@ -1,4 +1,6 @@
 package com.example.ticket.repositories;
 
-public interface UserRepository {
+@Repository
+public interface UserRepository extends JpaRepository<User, UUID> {
+
 }
